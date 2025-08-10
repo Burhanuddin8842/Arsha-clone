@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.hero{
+    background-color: #37517E;
+    height: 100vh;
+}
+.heroimg{
+    animation: updown 1.5s linear 0s infinite alternate;
+}
+@keyframes updown{
+    from{
+        transform: translateY(0%);
+    }to{
+        transform: translateY(5px);
+    }
+}
+.confluid1{
+    background-color: #F5F6F8;
+}
+.aboutheading{
+    position: relative;
+}
+.line{
+    width: 15%;
+    height: 1px;
+    background-color: gray;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.innerline{
+    background-color: #47B2E4;
+    width: 50%;
+    height: 4px;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -50%);
+}
+.aboutheading h2{
+    color: #37517E;
+}
