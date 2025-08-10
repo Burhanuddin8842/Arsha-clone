@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    
+
 }
 .hero{
     background-color: #37517E;
-    height: 100vh;
+    min-height: 100vh;
 }
 .heroimg{
     animation: updown 1.5s linear 0s infinite alternate;
@@ -40,5 +40,20 @@
     transform: translate(50%, -50%);
 }
 .aboutheading h2{
+    color: #37517E;
+}
+.sec2{
+    background-color: #F5F6F8;
+}
+.sec2cont h2{
+    color: #37517E;
+}
+.sec3{
+    background-color: #F5F6F8;
+}
+h2{
+    color: #37517E;
+}
+.card h4{
     color: #37517E;
 }
