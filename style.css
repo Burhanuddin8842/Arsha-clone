@@ -76,3 +76,6 @@ h2{
 .work-card:hover .content{
     transform: translateY(-10px);
 }
+.CTA{
+    background: linear-gradient(to right, rgba(55, 81, 126, 0.372), rgba(55, 81, 126, 0.459)), url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp") fixed;
+}
