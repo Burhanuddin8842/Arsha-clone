@@ -1,81 +1,126 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.5s;
+}
+.hero {
+  background-color: #37517e;
+  min-height: 100vh;
+}
+.heroimg {
+  animation: updown 1.5s linear 0s infinite alternate;
+}
+@keyframes updown {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+.confluid1 {
+  background-color: #f5f6f8;
+}
+.aboutheading {
+  position: relative;
+}
+.line {
+  width: 15%;
+  height: 1px;
+  background-color: gray;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.innerline {
+  background-color: #47b2e4;
+  width: 50%;
+  height: 4px;
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, -50%);
+}
+.aboutheading h2 {
+  color: #37517e;
+}
+.sec2,
+.sec8 {
+  background-color: #f5f6f8;
+}
+.sec2cont h2 {
+  color: #37517e;
+}
+.sec4 {
+  background-color: #f5f6f8;
+}
+h2 {
+  color: #37517e;
+}
+.card h4 {
+  color: #37517e;
+}
+.progress-bar {
+  background-color: #37517e;
+}
 
+.work-card:hover .work-img {
+  scale: 1.2;
 }
-.hero{
-    background-color: #37517E;
-    min-height: 100vh;
+.work-img {
+  transition: all 0.3s;
 }
-.heroimg{
-    animation: updown 1.5s linear 0s infinite alternate;
+.work-card {
+  overflow: hidden;
 }
-@keyframes updown{
-    from{
-        transform: translateY(0%);
-    }to{
-        transform: translateY(5px);
-    }
+.content {
+  z-index: 1;
+  transition: all 0.3s;
 }
-.confluid1{
-    background-color: #F5F6F8;
+.work-card:hover .content {
+  transform: translateY(-10px);
 }
-.aboutheading{
-    position: relative;
+.CTA {
+  background: linear-gradient(
+      to right,
+      rgba(55, 81, 126, 0.372),
+      rgba(55, 81, 126, 0.459)
+    ),
+    url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp")
+      fixed;
 }
-.line{
-    width: 15%;
-    height: 1px;
-    background-color: gray;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+.img-animate:hover .about-img-animate {
+  transform: translateY(-100%);
 }
-.innerline{
-    background-color: #47B2E4;
-    width: 50%;
-    height: 4px;
-    top: 50%;
-    left: 50%;
-    transform: translate(50%, -50%);
+.about-img-animate {
+  background-color: rgba(255, 255, 255, 0.736);
+  transition: all 0.5s;
 }
-.aboutheading h2{
-    color: #37517E;
+.sec7 .sec7-cont .col-lg-12 .btn:hover,
+.sec7 .sec7-cont .col-lg-12 .btn:focus {
+  background-color: #47b2e4;
+  font-weight: bold;
+  color: white;
 }
-.sec2{
-    background-color: #F5F6F8;
+
+.sec8-about h4 {
+  color: #37517e;
 }
-.sec2cont h2{
-    color: #37517E;
+.sec8-about h5,
+.sec8-about p {
+  font-weight: 350;
 }
-.sec4{
-    background-color: #F5F6F8;
+.sec8-sm-icons div {
+  background-color: #f4f4f4;
 }
-h2{
-    color: #37517E;
+.sec8-sm-icons div:hover {
+  background-color: #47b2e4;
 }
-.card h4{
-    color: #37517E;
+.sec8-sm-icons div:hover i {
+  color: white !important;
 }
-.progress-bar{
-    background-color: #37517E;
+.sec8 .card {
+  margin: 1rem;
 }
-.work-card:hover .work-img{
-    scale: 1.2;
-}
-.work-img{
-    transition: all 0.3s;
-}
-.work-card{
-    overflow: hidden;
-}
-.content{
-    z-index: 1;
-    transition: all 0.3s;
-}
-.work-card:hover .content{
-    transform: translateY(-10px);
-}
-.CTA{
-    background: linear-gradient(to right, rgba(55, 81, 126, 0.372), rgba(55, 81, 126, 0.459)), url("https://bootstrapmade.com/content/demo/Arsha/assets/img/bg/bg-8.webp") fixed;
+.sec9 h4 {
+  color: #37517e;
 }
