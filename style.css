@@ -44,7 +44,7 @@
   color: #37517e;
 }
 .sec2,
-.sec8 {
+.sec8, .sec10, .sec11 .container, .sec12{
   background-color: #f5f6f8;
 }
 .sec2cont h2 {
@@ -123,4 +123,16 @@ h2 {
 }
 .sec9 h4 {
   color: #37517e;
+}
+.sec12-cont .card:hover .abcd{
+  scale: 1.2;
+}
+.abcd{
+  z-index: 0;
+}
+.sec12-cont .card{
+  overflow: hidden;
+}
+.spn{
+  z-index: 3;
 }
