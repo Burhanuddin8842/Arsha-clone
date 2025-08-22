@@ -127,12 +127,36 @@ h2 {
 .sec12-cont .card:hover .abcd{
   scale: 1.2;
 }
-.abcd{
-  z-index: 0;
-}
 .sec12-cont .card{
   overflow: hidden;
 }
-.spn{
-  z-index: 3;
+.date{
+  width: max-content;
+  z-index: 2;
+}
+.blogimg{
+  z-index: 0;
+  overflow: hidden;
+}
+.blog-card:hover .blog-image{
+  scale: 1.3;
+}
+.blog-card:hover .blogcontent h4, .blog-card:hover .blog-btn{
+  color: #47b2e4 !important;
+}
+.services-card:hover .services-h{
+  color: #47b2e4;
+}
+.services-card:hover{
+  transform: translateY(-2%);
+}
+.contact-card{
+  border-top: 2px solid #47b2e4 !important;
+  border-bottom: 2px solid #47b2e4 !important;
+  border: 0;
+}
+.card-crd{
+  height: 50px;
+  width: 50px;
+  clip-path: circle();
 }
