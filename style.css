@@ -160,3 +160,15 @@ h2 {
   width: 50px;
   clip-path: circle();
 }
+.contact-left-card:hover .bi-geo-alt{
+  color: white !important;
+} 
+.contact-left-card:hover .card-crd{
+  background-color: #47b2e4 !important;
+}
+.card-crd{
+  background-color: #F1F9FD;
+}
+.contact-left-card2{
+  line-height: 0.3rem;
+}
