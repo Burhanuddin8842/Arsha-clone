@@ -44,7 +44,7 @@
   color: #37517e;
 }
 .sec2,
-.sec8, .sec10, .sec11 .container, .sec12{
+.sec8, .sec10, .sec11 .container, .sec12, .sec14{
   background-color: #f5f6f8;
 }
 .sec2cont h2 {
@@ -171,4 +171,7 @@ h2 {
 }
 .contact-left-card2{
   line-height: 0.3rem;
+}
+.usefull-links{
+  color: #37517e !important;
 }
